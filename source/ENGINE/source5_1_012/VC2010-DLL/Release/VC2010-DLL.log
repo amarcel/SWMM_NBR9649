@@ -1,0 +1,74 @@
+﻿Build started 13/12/2017 16:40:13.
+Project "C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\VC2010-DLL.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Release\VC2010-DLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Ot /Oy- /GL /D _WINDLL /Gm- /MT /GS /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\link.c
+  link.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\Release\swmm5.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"swmm5.def" /MANIFEST /ManifestFile:"Release\swmm5.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\Release\swmm5.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\Release\swmm5.lib" /MACHINE:X86 /DLL Release\climate.obj
+  Release\controls.obj
+  Release\culvert.obj
+  Release\datetime.obj
+  Release\dwflow.obj
+  Release\dynwave.obj
+  Release\error.obj
+  Release\exfil.obj
+  Release\findroot.obj
+  Release\flowrout.obj
+  Release\forcmain.obj
+  Release\gage.obj
+  Release\gwater.obj
+  Release\hash.obj
+  Release\hotstart.obj
+  Release\iface.obj
+  Release\infil.obj
+  Release\inflow.obj
+  Release\input.obj
+  Release\inputrpt.obj
+  Release\keywords.obj
+  Release\kinwave.obj
+  Release\landuse.obj
+  Release\lid.obj
+  Release\lidproc.obj
+  Release\link.obj
+  Release\massbal.obj
+  Release\mathexpr.obj
+  Release\mempool.obj
+  Release\node.obj
+  Release\odesolve.obj
+  Release\output.obj
+  Release\project.obj
+  Release\qualrout.obj
+  Release\rain.obj
+  Release\rdii.obj
+  Release\report.obj
+  Release\roadway.obj
+  Release\routing.obj
+  Release\runoff.obj
+  Release\shape.obj
+  Release\snow.obj
+  Release\stats.obj
+  Release\statsrpt.obj
+  Release\subcatch.obj
+  Release\surfqual.obj
+  Release\swmm5.obj
+  Release\table.obj
+  Release\toposort.obj
+  Release\transect.obj
+  Release\treatmnt.obj
+  Release\xsect.obj
+     Creating library C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\Release\swmm5.lib and object C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\Release\swmm5.exp
+  Generating code
+  Finished generating code
+  VC2010-DLL.vcxproj -> C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\Release\swmm5.dll
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\Release\swmm5.dll;#2" /manifest Release\swmm5.dll.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Release\VC2010-DLL.unsuccessfulbuild".
+  Touching "Release\VC2010-DLL.lastbuildstate".
+Done Building Project "C:\Users\AMFS\Documents\SWMM_NBR9649_5p1p012\swmm51012_engine_2\source5_1_012\VC2010-DLL\VC2010-DLL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.31
